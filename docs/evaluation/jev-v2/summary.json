@@ -1,0 +1,56 @@
+{
+  "provider": "jev",
+  "corpus": "evaluation/cases_v2.json",
+  "platform": "macOS-15.7.7-arm64-arm-64bit",
+  "load_seconds": 0.15353766700718552,
+  "metrics": {
+    "total": 40,
+    "successful_responses": 38,
+    "top1": 0.85,
+    "top3": 0.875,
+    "recall": 0.9,
+    "none_accuracy": 1.0,
+    "recent_baseline": 0.075,
+    "retrieval_baseline": 0.225,
+    "p50_ms": 327.892,
+    "p95_ms": 1114.403,
+    "over_2s": 2,
+    "within_2s_top1": 0.85,
+    "input_tokens": 19207
+  },
+  "languages": {
+    "en": {
+      "total": 20,
+      "successful_responses": 20,
+      "top1": 0.95,
+      "top3": 0.95,
+      "recall": 0.9333333333333333,
+      "none_accuracy": 1.0,
+      "recent_baseline": 0.05,
+      "retrieval_baseline": 0.25,
+      "p50_ms": 317.7455,
+      "p95_ms": 394.872,
+      "over_2s": 0,
+      "within_2s_top1": 0.95,
+      "input_tokens": 9905
+    },
+    "zh": {
+      "total": 20,
+      "successful_responses": 18,
+      "top1": 0.75,
+      "top3": 0.8,
+      "recall": 0.8666666666666667,
+      "none_accuracy": 1.0,
+      "recent_baseline": 0.1,
+      "retrieval_baseline": 0.2,
+      "p50_ms": 348.8105,
+      "p95_ms": 3010.911,
+      "over_2s": 2,
+      "within_2s_top1": 0.75,
+      "input_tokens": 9302
+    }
+  },
+  "prompt_version": "clipboard-choice-v2",
+  "percentile_method": "nearest rank",
+  "recall_denominator": "answerable cases only"
+}

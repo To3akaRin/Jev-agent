@@ -1,0 +1,3422 @@
+[
+  {
+    "id": "en-01",
+    "language": "en",
+    "category": 0,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Contact email address",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "88976b9f7c5d51ab",
+        "text": "INV-2026-100",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "22a3accc6464c595",
+        "text": "Maya Chen",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "6028fec9a2a1296c",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "fe7687ed3807846c",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "282dba8a7be1df09",
+        "text": "Support incident 100: database connection timed out",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "c85e81531d6c435f",
+        "text": "100 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "4a8220f492ff1a1d",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "a130be6314d4af26",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "6028fec9a2a1296c"
+  },
+  {
+    "id": "en-02",
+    "language": "en",
+    "category": 1,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Online meeting link",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "7f7bd61d90d84576",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "86689844cd350519",
+        "text": "100 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "bf591e02d997fff8",
+        "text": "INV-2026-100",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "8de2404efb54f87b",
+        "text": "Maya Chen",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "043b1e364254c7b3",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "866a2708e09367ca",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "ca1ddfae0c729eac",
+        "text": "Support incident 100: database connection timed out",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "b78954ac29d2fa1e",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "866a2708e09367ca"
+  },
+  {
+    "id": "en-03",
+    "language": "en",
+    "category": 2,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Shipping street address",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "c1b8ea4ead44ab01",
+        "text": "100 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "113e53f38a0d3f0f",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "f94e12463ed0e065",
+        "text": "Support incident 100: database connection timed out",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "0b99f659649024ae",
+        "text": "Maya Chen",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "75cb275d2e3317fe",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "3cc11180705f9084",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "9f2e1a822290cbdc",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "5fc99977dcddb90d",
+        "text": "INV-2026-100",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "c1b8ea4ead44ab01"
+  },
+  {
+    "id": "en-04",
+    "language": "en",
+    "category": 3,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Full name",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "c021d3cbec4c0445",
+        "text": "100 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "5e7b474bf3d50783",
+        "text": "Maya Chen",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "046b6ab09713378e",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "888364271785cb6f",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "ead5dfd0364321ca",
+        "text": "Support incident 100: database connection timed out",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "9fd7f13a9bc654ca",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "2ee94a3b90bed600",
+        "text": "INV-2026-100",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "c21168ed45ac0eed",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "5e7b474bf3d50783"
+  },
+  {
+    "id": "en-05",
+    "language": "en",
+    "category": 4,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Invoice reference",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "57858c053ab79b28",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "9457cac14f1c2475",
+        "text": "Maya Chen",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "266b3b056c62bf4c",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "c33ec8d411aaf0e3",
+        "text": "INV-2026-100",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "6a0f40826c29b8fc",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "67007e75e76e11c9",
+        "text": "Support incident 100: database connection timed out",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "82a450c48aa2511c",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "4f09934ba7268474",
+        "text": "100 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "c33ec8d411aaf0e3"
+  },
+  {
+    "id": "en-06",
+    "language": "en",
+    "category": 5,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Paste Python function",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "8d43e5f68255330c",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "390918dd12becee9",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "c7bdd8c6f89ff187",
+        "text": "INV-2026-100",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "31fe399b5cef281d",
+        "text": "Support incident 100: database connection timed out",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "13b9491f7d4ee6d9",
+        "text": "100 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "dabfba7bcb7728c0",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "4ee65b0071df1d1a",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "169bed70cb2b5d59",
+        "text": "Maya Chen",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "4ee65b0071df1d1a"
+  },
+  {
+    "id": "en-07",
+    "language": "en",
+    "category": 6,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Email closing message",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "710026b09c343ca6",
+        "text": "Maya Chen",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "fda92190fe72207c",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "f5e7725fbefef871",
+        "text": "Support incident 100: database connection timed out",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "50329a52d4e7477d",
+        "text": "INV-2026-100",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "54d9fb73f90449ef",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "ef8f478afb3e7926",
+        "text": "100 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "10460b26692a6361",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "3f5f0d5faef1bc5e",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "10460b26692a6361"
+  },
+  {
+    "id": "en-08",
+    "language": "en",
+    "category": 7,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Error message to investigate",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "d6197b8d4823371a",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "65748c461b3b954e",
+        "text": "100 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "308f4efc9edf7b40",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "e283059c973297ac",
+        "text": "Support incident 100: database connection timed out",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "96ea79a6bf2c1dee",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "19255a0c2769fdc7",
+        "text": "INV-2026-100",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "dc6b3dd237fa4a85",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "eea1af6f8ed3f9a5",
+        "text": "Maya Chen",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "e283059c973297ac"
+  },
+  {
+    "id": "en-09",
+    "language": "en",
+    "category": 8,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Credit card expiry date",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "60164c753c562153",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "b61191d4bed9fac7",
+        "text": "Maya Chen",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "ec998ffa6678ba4b",
+        "text": "Support incident 100: database connection timed out",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "a3ad0ed693306293",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "f00f4d1e302e7a3c",
+        "text": "INV-2026-100",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "b5af8336cb7b849b",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "15f43156350d5b90",
+        "text": "100 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "044afc0906ca86b1",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": null
+  },
+  {
+    "id": "en-10",
+    "language": "en",
+    "category": 9,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Phone number",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "b4a0253cabd787ae",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "b5c502e698033dee",
+        "text": "100 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "23f72037afe11732",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "738f62fbbf0fe377",
+        "text": "Maya Chen",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "560a0a30568b278a",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "7cc4bdc150555e75",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "ca4d22fd564c000e",
+        "text": "Support incident 100: database connection timed out",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "16bf3800f55388eb",
+        "text": "INV-2026-100",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": null
+  },
+  {
+    "id": "en-11",
+    "language": "en",
+    "category": 0,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Contact email address",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "07b9f3526a1e75b7",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "16f5421862f37d08",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "44875519ef76ca7c",
+        "text": "Maya Chen",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "3006ac11e47b5ab8",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "5bb1ec800cb3bac2",
+        "text": "101 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "4f73884d4f875074",
+        "text": "Support incident 101: database connection timed out",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "dd23b7d60ffb2e24",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "e1f9ab456afc7513",
+        "text": "INV-2026-101",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "3006ac11e47b5ab8"
+  },
+  {
+    "id": "en-12",
+    "language": "en",
+    "category": 1,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Online meeting link",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "dd7d31b37c8dcabc",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "fe2712a26f3c04ab",
+        "text": "Support incident 101: database connection timed out",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "47fb13e25c6fe239",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "3efc32a43932e17a",
+        "text": "101 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "dfb545c13958c24e",
+        "text": "INV-2026-101",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "99f76f3a1dd39b37",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "2fa71ad0266c019e",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "1c854dd0e2dc4185",
+        "text": "Maya Chen",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "dd7d31b37c8dcabc"
+  },
+  {
+    "id": "en-13",
+    "language": "en",
+    "category": 2,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Shipping street address",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "553a82e5777d68e9",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "e97a1149edf46206",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "a026dba437378302",
+        "text": "101 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "5be0679649541733",
+        "text": "Support incident 101: database connection timed out",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "97259d46dd9d02f6",
+        "text": "Maya Chen",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "87ef85383f491d3f",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "27ce88f044374426",
+        "text": "INV-2026-101",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "58dbac95f9a978f0",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "a026dba437378302"
+  },
+  {
+    "id": "en-14",
+    "language": "en",
+    "category": 3,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Full name",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "12318748a391e9a0",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "3854405dd3d2b1ec",
+        "text": "Support incident 101: database connection timed out",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "9b32d4a20543de3b",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "5a4c2cceb6f38607",
+        "text": "101 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "ed88adb0cabbf3bf",
+        "text": "Maya Chen",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "96246b360c2c43db",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "94f6b4823190da3a",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "efc6dc10fe07797c",
+        "text": "INV-2026-101",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "ed88adb0cabbf3bf"
+  },
+  {
+    "id": "en-15",
+    "language": "en",
+    "category": 4,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Invoice reference",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "ce5ce1b3a0812cc1",
+        "text": "INV-2026-101",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "4eca996d090d40fc",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "fad1a5a318d5a8f0",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "ba98f3c34f61c005",
+        "text": "Maya Chen",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "79f9c0e94dc036cc",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "75448e4f3eba111c",
+        "text": "101 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "8a55ff5430b7dca8",
+        "text": "Support incident 101: database connection timed out",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "9364f8cbf85e4b55",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "ce5ce1b3a0812cc1"
+  },
+  {
+    "id": "en-16",
+    "language": "en",
+    "category": 5,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Paste Python function",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "47534d3e3970d8e5",
+        "text": "101 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "51cf0abfc062741e",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "065672229ec184b3",
+        "text": "INV-2026-101",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "b45b3c4b3de4522b",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "ddc7e1f9e7ce02f0",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "ad798411b9b13d4e",
+        "text": "Maya Chen",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "a82d1fab052c4d53",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "accba436bbdd1276",
+        "text": "Support incident 101: database connection timed out",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "a82d1fab052c4d53"
+  },
+  {
+    "id": "en-17",
+    "language": "en",
+    "category": 6,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Email closing message",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "fcd5f775a31b4676",
+        "text": "INV-2026-101",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "035b85289a8df4aa",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "49a619e10fd2e321",
+        "text": "101 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "57d21d319d6b9460",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "9d8ef988eac4ee13",
+        "text": "Support incident 101: database connection timed out",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "aa869542d6cb8e27",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "0603306a80b7e3bd",
+        "text": "Maya Chen",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "7f7b7292a052417d",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "57d21d319d6b9460"
+  },
+  {
+    "id": "en-18",
+    "language": "en",
+    "category": 7,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Error message to investigate",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "44663a62779c9431",
+        "text": "Support incident 101: database connection timed out",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "fabcdc6bd35050d7",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "70b204de2e11bc81",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "4856075e5e43779c",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "d5ed9177a8b37809",
+        "text": "INV-2026-101",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "d746fbcbd1a35a7a",
+        "text": "Maya Chen",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "c20213f31f792494",
+        "text": "101 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "24c3148ed2d80515",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "44663a62779c9431"
+  },
+  {
+    "id": "en-19",
+    "language": "en",
+    "category": 8,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Credit card expiry date",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "6ba7c379ebe87c09",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "4cd794d8a0f3d560",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "d4477347a9019ebf",
+        "text": "INV-2026-101",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "983251de64718f2e",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "36da74baa03f72a5",
+        "text": "Support incident 101: database connection timed out",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "c350703f8e84d8a4",
+        "text": "Maya Chen",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "dd2213f9ce9f7029",
+        "text": "101 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "d1482dd4cbc03508",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": null
+  },
+  {
+    "id": "en-20",
+    "language": "en",
+    "category": 9,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Phone number",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "962b58a7819fa675",
+        "text": "INV-2026-101",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "232ff9260d32d346",
+        "text": "Maya Chen",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "f778cc898bc68673",
+        "text": "Support incident 101: database connection timed out",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "f3d3be76e5428812",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "21a0ecdc90d138f3",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "1b247797b2e68573",
+        "text": "101 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "95a89c09cb106ea2",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "f1b911c4c88f508a",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": null
+  },
+  {
+    "id": "en-21",
+    "language": "en",
+    "category": 0,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Contact email address",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "d5e5f7601279b52f",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "165c9c21d861239a",
+        "text": "Support incident 102: database connection timed out",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "9fa70d0978b2b1f9",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "0fcf4c5d669207fe",
+        "text": "INV-2026-102",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "951cd578393ad7c8",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "c81ba732bcc99e32",
+        "text": "Maya Chen",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "2f27e35dedc935f1",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "a2a3851eaca269c6",
+        "text": "102 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "9fa70d0978b2b1f9"
+  },
+  {
+    "id": "en-22",
+    "language": "en",
+    "category": 1,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Online meeting link",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "209a963f97e2e4cd",
+        "text": "INV-2026-102",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "b06e6d6ebb30bda0",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "9499a9a069b9d75e",
+        "text": "Maya Chen",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "5b2670d1a5419155",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "64c095f10ae6dda8",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "7ae22cbb38fc990e",
+        "text": "Support incident 102: database connection timed out",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "b92dfb99b2ae552e",
+        "text": "102 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "edd40032a49d124f",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "b06e6d6ebb30bda0"
+  },
+  {
+    "id": "en-23",
+    "language": "en",
+    "category": 2,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Shipping street address",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "7a36c483f228baf9",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "534e3293e8e73f06",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "f17bd76074541c2e",
+        "text": "Maya Chen",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "27d6305651b3daf0",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "cfe8bebff5b8e470",
+        "text": "INV-2026-102",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "244a921e829af746",
+        "text": "102 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "26ef859288e1ba2d",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "4b67856fbcf203cb",
+        "text": "Support incident 102: database connection timed out",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "244a921e829af746"
+  },
+  {
+    "id": "en-24",
+    "language": "en",
+    "category": 3,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Full name",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "656a76cccbfc88d4",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "6f72b136a0a93e27",
+        "text": "102 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "0a1d9c5512c04431",
+        "text": "Support incident 102: database connection timed out",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "8aaa5167c9aa1dd7",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "ec1e914a43a4fffe",
+        "text": "Maya Chen",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "fdf035786fd2739e",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "6aa92416cb5669b0",
+        "text": "INV-2026-102",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "aebe28d36079c5ab",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "ec1e914a43a4fffe"
+  },
+  {
+    "id": "en-25",
+    "language": "en",
+    "category": 4,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Invoice reference",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "e7d53a5577e53726",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "9ef743d40577674a",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "b6609d16761e8cb4",
+        "text": "Support incident 102: database connection timed out",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "34aca2b5ef5c36eb",
+        "text": "Maya Chen",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "e237f764bbb6f2f4",
+        "text": "102 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "76b74df5c9a4da7d",
+        "text": "INV-2026-102",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "772dbca7834cc269",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "d9057aa69a4de0ae",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "76b74df5c9a4da7d"
+  },
+  {
+    "id": "en-26",
+    "language": "en",
+    "category": 5,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Paste Python function",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "1070f725ac83fe72",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "75d342ecb3b5c1ba",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "cf60f18fa3b2a072",
+        "text": "Maya Chen",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "cb752c9dc35a952e",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "3708f8d641073fd4",
+        "text": "102 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "7487350f536339a9",
+        "text": "Support incident 102: database connection timed out",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "f817baf268002046",
+        "text": "INV-2026-102",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "c9f31c6b2838a3cd",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "75d342ecb3b5c1ba"
+  },
+  {
+    "id": "en-27",
+    "language": "en",
+    "category": 6,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Email closing message",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "8b832ecac28cc715",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "12b86d8d62660c01",
+        "text": "Maya Chen",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "ef9c4924a743ba20",
+        "text": "INV-2026-102",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "df9b9dd852a87f08",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "8710f2793d40bc64",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "fc00dd637ac380ca",
+        "text": "Support incident 102: database connection timed out",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "c1b9ce02f1b1cb17",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "909d621dc5c866de",
+        "text": "102 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "8710f2793d40bc64"
+  },
+  {
+    "id": "en-28",
+    "language": "en",
+    "category": 7,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Error message to investigate",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "cb926af758d72737",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "62341153f0e5ed7d",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "23df497ff578996c",
+        "text": "Support incident 102: database connection timed out",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "db16e69afceaaedb",
+        "text": "102 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "4909cb7963d84983",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "e1c3447c19ba9614",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "48fc2ffd7ab4637a",
+        "text": "INV-2026-102",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "fd1d1f355d9fc966",
+        "text": "Maya Chen",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "23df497ff578996c"
+  },
+  {
+    "id": "en-29",
+    "language": "en",
+    "category": 8,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Credit card expiry date",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "c7938747e9907508",
+        "text": "102 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "de46ebb712608986",
+        "text": "Support incident 102: database connection timed out",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "e93288e9ff5cfbe7",
+        "text": "INV-2026-102",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "5c9a5fbcc7106ff6",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "f32522464540b15f",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "16833e87f24dec51",
+        "text": "Maya Chen",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "2a60a46f214d4ed8",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "23523276d958ba01",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": null
+  },
+  {
+    "id": "en-30",
+    "language": "en",
+    "category": 9,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "Synthetic acceptance form",
+      "field_label": "Phone number",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "0497dd2f9428c7bc",
+        "text": "Please review the attached draft.\nThank you for your time.",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "803cd10ab49a055f",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "3e7a9cfac8007125",
+        "text": "102 Maple Street, Bristol, BS1 4AA",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "4924b1c3b146fd04",
+        "text": "INV-2026-102",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "04eae9e62c3e7407",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "dac2df8aec6b25d3",
+        "text": "Support incident 102: database connection timed out",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "69eb7163590250a6",
+        "text": "Maya Chen",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "923b207a7d4e9b60",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": null
+  },
+  {
+    "id": "zh-01",
+    "language": "zh",
+    "category": 0,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "合成验收表单",
+      "field_label": "联系人邮箱",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "dd2b33dc3847a253",
+        "text": "陈小雨",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "2f4ee299ad58abaa",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "8f373ce73b493c20",
+        "text": "浙江省杭州市示例路100号2楼",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "95a567a919841300",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "fdd9670287313ba3",
+        "text": "故障100：数据库连接超时",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "c60c99fe194a2891",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "4f66462832e26bcd",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "5491984ba5877028",
+        "text": "INV-2026-100",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "2f4ee299ad58abaa"
+  },
+  {
+    "id": "zh-02",
+    "language": "zh",
+    "category": 1,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "合成验收表单",
+      "field_label": "线上会议链接",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "51245b871167ae86",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "ebdf9bcf2a439537",
+        "text": "故障100：数据库连接超时",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "8d0b5ad3b9ac37e5",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "9d642a5825a81145",
+        "text": "INV-2026-100",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "2d93f5515eca1cf8",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "4559075eb75e2c51",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "ac026eca256725a8",
+        "text": "浙江省杭州市示例路100号2楼",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "153fbbc8457e9711",
+        "text": "陈小雨",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "8d0b5ad3b9ac37e5"
+  },
+  {
+    "id": "zh-03",
+    "language": "zh",
+    "category": 2,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "合成验收表单",
+      "field_label": "收货详细地址",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "cf932607d05797ee",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "b7344c23257fadcd",
+        "text": "浙江省杭州市示例路100号2楼",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "cc2f5474ddb4c0c0",
+        "text": "陈小雨",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "cdfdef798447f409",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "2635c551437f26e5",
+        "text": "故障100：数据库连接超时",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "10e2c84f92f5ca99",
+        "text": "INV-2026-100",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "9385b0128e96164f",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "92c7639186ba9fa4",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "b7344c23257fadcd"
+  },
+  {
+    "id": "zh-04",
+    "language": "zh",
+    "category": 3,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "合成验收表单",
+      "field_label": "收件人姓名",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "9b5d56efe789f89d",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "c0833af42cca8d17",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "32767cb2a1afd057",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "ac60ab004ce69ad4",
+        "text": "浙江省杭州市示例路100号2楼",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "123b281d4c7e0b6c",
+        "text": "故障100：数据库连接超时",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "190780333d5ceeeb",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "7021e4318507abc2",
+        "text": "陈小雨",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "a376461aebcd14b3",
+        "text": "INV-2026-100",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "7021e4318507abc2"
+  },
+  {
+    "id": "zh-05",
+    "language": "zh",
+    "category": 4,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "合成验收表单",
+      "field_label": "发票编号",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "d4696ee02696e2c6",
+        "text": "陈小雨",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "ab6599157532a91b",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "c12d8cc1b4dbbfed",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "e0ca4c5d6e41549b",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "0a27788025c0c6d8",
+        "text": "浙江省杭州市示例路100号2楼",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "a90ab71c2e0b6f78",
+        "text": "故障100：数据库连接超时",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "c406f8366a9e1d25",
+        "text": "INV-2026-100",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "c85b5c55c709dd1d",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "c406f8366a9e1d25"
+  },
+  {
+    "id": "zh-06",
+    "language": "zh",
+    "category": 5,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "合成验收表单",
+      "field_label": "粘贴 Python 函数",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "19e560856a26343c",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "8de5829f0595c920",
+        "text": "陈小雨",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "58f8a0468208f3f9",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "355cb4faf57e5b5d",
+        "text": "INV-2026-100",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "64b8fe87facf0226",
+        "text": "故障100：数据库连接超时",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "b5ac6e44a095e8e4",
+        "text": "浙江省杭州市示例路100号2楼",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "ab55ff1942405e5f",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "c9b4ba21dac9ea7c",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "58f8a0468208f3f9"
+  },
+  {
+    "id": "zh-07",
+    "language": "zh",
+    "category": 6,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "合成验收表单",
+      "field_label": "邮件结尾正文",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "e3f44f828f8958b5",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "42e32083d35e45b2",
+        "text": "浙江省杭州市示例路100号2楼",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "72a4d2023f189251",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "3a7391cd96bb90bc",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "956f6d01e2d5a53f",
+        "text": "INV-2026-100",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "4aea3dd7bcec88a3",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "5a036fd8600c9f12",
+        "text": "故障100：数据库连接超时",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "ccd8f33eee3ff60a",
+        "text": "陈小雨",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "4aea3dd7bcec88a3"
+  },
+  {
+    "id": "zh-08",
+    "language": "zh",
+    "category": 7,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "合成验收表单",
+      "field_label": "需要排查的报错原文",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "ffc1c900283de776",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "f1a1e1217209152b",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "45f9a1081650903e",
+        "text": "浙江省杭州市示例路100号2楼",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "82a7aabd293b903b",
+        "text": "陈小雨",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "a6545cbd46e767f5",
+        "text": "故障100：数据库连接超时",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "23805431fc87f4e8",
+        "text": "INV-2026-100",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "59b98f39f9802ab3",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "74ab3e6c0cb7d991",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "a6545cbd46e767f5"
+  },
+  {
+    "id": "zh-09",
+    "language": "zh",
+    "category": 8,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "合成验收表单",
+      "field_label": "信用卡有效期",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "b8f47232035a9186",
+        "text": "浙江省杭州市示例路100号2楼",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "a466e616e684c6b5",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "be8d6475d466672d",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "c966bd7b3a1ef374",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "7ed1d1dbea82bd6d",
+        "text": "INV-2026-100",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "b26fa33d94b73c23",
+        "text": "故障100：数据库连接超时",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "57cb30ef6dd327c5",
+        "text": "陈小雨",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "92efdf0201012a36",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": null
+  },
+  {
+    "id": "zh-10",
+    "language": "zh",
+    "category": 9,
+    "context": {
+      "application": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "window_title": "合成验收表单",
+      "field_label": "手机号码",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "ded8c983e240285e",
+        "text": "INV-2026-100",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "915b89ceee6dfe0a",
+        "text": "https://meet.example.com/project-100",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "89af954f7b1b37b2",
+        "text": "故障100：数据库连接超时",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "f6e0f79db5bc0c36",
+        "text": "浙江省杭州市示例路100号2楼",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "9ad56f1cdb6cdea8",
+        "text": "陈小雨",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "ec251865ef1c0a56",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "172b509c0a1254f9",
+        "text": "def total_100(items):\n    return sum(items)\n",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "806044253b39fddf",
+        "text": "maya.chen100@example.com",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": null
+  },
+  {
+    "id": "zh-11",
+    "language": "zh",
+    "category": 0,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "联系人邮箱",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "7f4fcc380cd2b12e",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "3d84171848507035",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "c7365c9fa8e2ff10",
+        "text": "故障101：数据库连接超时",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "1e3d23070edf59d7",
+        "text": "浙江省杭州市示例路101号2楼",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "f8123a460081c1bf",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "7203f0e82805a092",
+        "text": "INV-2026-101",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "a54e2ba2b43dc6f4",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "a8f301b166497d66",
+        "text": "陈小雨",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "a54e2ba2b43dc6f4"
+  },
+  {
+    "id": "zh-12",
+    "language": "zh",
+    "category": 1,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "线上会议链接",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "57869db814503586",
+        "text": "陈小雨",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "65998e0a03f37e45",
+        "text": "INV-2026-101",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "4b2a1200bf4a9873",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "858c3c0f074644cb",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "5bdee46984462e9d",
+        "text": "故障101：数据库连接超时",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "c8af4c7e09b529cc",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "954113fec4b7614e",
+        "text": "浙江省杭州市示例路101号2楼",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "ab3b4c44b3508329",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "858c3c0f074644cb"
+  },
+  {
+    "id": "zh-13",
+    "language": "zh",
+    "category": 2,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "收货详细地址",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "86f6cf2f2f412c07",
+        "text": "浙江省杭州市示例路101号2楼",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "4aab9272e80b82fd",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "3dd5d07f91a32fc1",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "294ba57ed5883395",
+        "text": "INV-2026-101",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "041c9607ce7f3bf1",
+        "text": "故障101：数据库连接超时",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "1763c7985d9fb18e",
+        "text": "陈小雨",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "6018f9cfdc8e37c8",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "c060af62dde42ad3",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "86f6cf2f2f412c07"
+  },
+  {
+    "id": "zh-14",
+    "language": "zh",
+    "category": 3,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "收件人姓名",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "8e3e8b650b82068a",
+        "text": "INV-2026-101",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "16e7477aebcc7a1a",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "d82f0b7fe97d0352",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "2a800bae0c161334",
+        "text": "浙江省杭州市示例路101号2楼",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "1c4272bb2a2877b8",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "e6937cb3428e7357",
+        "text": "陈小雨",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "1baad59679e702b1",
+        "text": "故障101：数据库连接超时",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "a3b57bd4eb787b3a",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "e6937cb3428e7357"
+  },
+  {
+    "id": "zh-15",
+    "language": "zh",
+    "category": 4,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "发票编号",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "b277ca5b6ccd06c5",
+        "text": "浙江省杭州市示例路101号2楼",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "96a64d39ed85d938",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "96e9c3f9dd37a953",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "cb56320af492b8f0",
+        "text": "INV-2026-101",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "c01dca58a2612710",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "3ca955041dc0be00",
+        "text": "陈小雨",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "912209062e46b690",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "08728913eebd3f19",
+        "text": "故障101：数据库连接超时",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "cb56320af492b8f0"
+  },
+  {
+    "id": "zh-16",
+    "language": "zh",
+    "category": 5,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "粘贴 Python 函数",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "a996139cad5be43e",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "2c12151f0f2ef215",
+        "text": "陈小雨",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "e3f2623a23f23908",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "bec5ac21acd16acb",
+        "text": "INV-2026-101",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "a28732df93822f67",
+        "text": "浙江省杭州市示例路101号2楼",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "ae6b68d94a1e489c",
+        "text": "故障101：数据库连接超时",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "9d1bd05198d3229c",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "6c4d3475461574c6",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "9d1bd05198d3229c"
+  },
+  {
+    "id": "zh-17",
+    "language": "zh",
+    "category": 6,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "邮件结尾正文",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "88ab691ea53e1ad0",
+        "text": "浙江省杭州市示例路101号2楼",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "5d9b2a25f60d0016",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "3f45c9955153afab",
+        "text": "INV-2026-101",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "e38ea5b5c923c500",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "7f3a46786ea43ab6",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "dd95caf5cc4d94d2",
+        "text": "陈小雨",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "9ed64b38818c2b49",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "0478e557ecc4da78",
+        "text": "故障101：数据库连接超时",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "9ed64b38818c2b49"
+  },
+  {
+    "id": "zh-18",
+    "language": "zh",
+    "category": 7,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "需要排查的报错原文",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "28da01ba1f98052d",
+        "text": "故障101：数据库连接超时",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "2844df75124a736c",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "0b337c732be900b1",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "d663a6848b984d8b",
+        "text": "INV-2026-101",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "6f9ed8df1cf6da7b",
+        "text": "陈小雨",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "e27db9b226fe5842",
+        "text": "浙江省杭州市示例路101号2楼",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "caa88f71c7a98709",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "6f07b2bbb51a8dd5",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "28da01ba1f98052d"
+  },
+  {
+    "id": "zh-19",
+    "language": "zh",
+    "category": 8,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "信用卡有效期",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "55bcbefbb53ec243",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "ddaa0305415607d6",
+        "text": "故障101：数据库连接超时",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "4c4981f62af3f876",
+        "text": "INV-2026-101",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "c2e92e45c3276a37",
+        "text": "浙江省杭州市示例路101号2楼",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "38c45f20f0b8345c",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "d9eef9b1d9c64500",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "3b7e35bf1f1bf7e5",
+        "text": "陈小雨",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "4b429aadc78c60e4",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": null
+  },
+  {
+    "id": "zh-20",
+    "language": "zh",
+    "category": 9,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "手机号码",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "c22988d8f2a858a9",
+        "text": "https://meet.example.com/project-101",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "12a9577309294f6b",
+        "text": "陈小雨",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "ff715df64ab8b201",
+        "text": "maya.chen101@example.com",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "b00a93847bc2e5c8",
+        "text": "INV-2026-101",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "046bdc3ed57ca833",
+        "text": "def total_101(items):\n    return sum(items)\n",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "3b12185853bbbc5b",
+        "text": "故障101：数据库连接超时",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "b5cb1e13f4757fe7",
+        "text": "浙江省杭州市示例路101号2楼",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "5e76c82fb2f83936",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": null
+  },
+  {
+    "id": "zh-21",
+    "language": "zh",
+    "category": 0,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "联系人邮箱",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "55e957b306fb9e36",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "8f99e71e218f14dc",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "29e31a60d8229a1b",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "40006426d84d6bd8",
+        "text": "陈小雨",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "5caf2e15ec7e38f1",
+        "text": "INV-2026-102",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "a62c4e7670412c21",
+        "text": "故障102：数据库连接超时",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "8ba748940c60e069",
+        "text": "浙江省杭州市示例路102号2楼",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "6b5429b8d14846bc",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "8f99e71e218f14dc"
+  },
+  {
+    "id": "zh-22",
+    "language": "zh",
+    "category": 1,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "线上会议链接",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "7474d861e4510f3b",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "f93bedf61b32c34d",
+        "text": "INV-2026-102",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "f9ad077a7ce2c961",
+        "text": "故障102：数据库连接超时",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "bc4c0e9578dc1743",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "53c2ac327f5d236f",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "f4de5f95aea75a4e",
+        "text": "浙江省杭州市示例路102号2楼",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "433bef5a023e0fce",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "bc27de0f0f38cbd9",
+        "text": "陈小雨",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "53c2ac327f5d236f"
+  },
+  {
+    "id": "zh-23",
+    "language": "zh",
+    "category": 2,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "收货详细地址",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "b2be6552abfe62e9",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "a31f6d637dc5d4fb",
+        "text": "故障102：数据库连接超时",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "7a46f5c7b2729c20",
+        "text": "浙江省杭州市示例路102号2楼",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "d6ee7a945b365a47",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "c3d139bbe0ed3dce",
+        "text": "INV-2026-102",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "e4e0bc2d2aeb624e",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "8e61319b91ab3c91",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "0945f0e6834d8d38",
+        "text": "陈小雨",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "7a46f5c7b2729c20"
+  },
+  {
+    "id": "zh-24",
+    "language": "zh",
+    "category": 3,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "收件人姓名",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "a9d0af15329f9fc5",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "9ae2de7c508b1217",
+        "text": "浙江省杭州市示例路102号2楼",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "e822efc1f56e0c58",
+        "text": "INV-2026-102",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "9c7e915c06377968",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "c2b7d6da152d46fe",
+        "text": "陈小雨",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "ca8a5e5d8e28d9d3",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "209ead275094344e",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "b28256bd5d87a659",
+        "text": "故障102：数据库连接超时",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "c2b7d6da152d46fe"
+  },
+  {
+    "id": "zh-25",
+    "language": "zh",
+    "category": 4,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "发票编号",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "5fe8770cea079853",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "dcb1c243d261121a",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "26ffb30b40a40dd1",
+        "text": "INV-2026-102",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "e1fa586f33cdfad4",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "8871feb79e062ac1",
+        "text": "陈小雨",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "f2fa1b3c5c3bdd4b",
+        "text": "故障102：数据库连接超时",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "d82cf8cc250288c0",
+        "text": "浙江省杭州市示例路102号2楼",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "9844af4489723dd4",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "26ffb30b40a40dd1"
+  },
+  {
+    "id": "zh-26",
+    "language": "zh",
+    "category": 5,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "粘贴 Python 函数",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "5e57753a5b3f1b35",
+        "text": "浙江省杭州市示例路102号2楼",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "6cfc8bf2d622c618",
+        "text": "故障102：数据库连接超时",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "b06839430047d12a",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "9346f10faecfa1b9",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "c445854ad3519466",
+        "text": "INV-2026-102",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "da60c54dd9efc19a",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "7335a3e5390eeafc",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "ef1b07e7dbd0ff18",
+        "text": "陈小雨",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "9346f10faecfa1b9"
+  },
+  {
+    "id": "zh-27",
+    "language": "zh",
+    "category": 6,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "邮件结尾正文",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "5ca8b5672332ce0d",
+        "text": "陈小雨",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "a0d3da666b2561a9",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "a0bd09accce2c36b",
+        "text": "故障102：数据库连接超时",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "a0ed2726ee79bf2d",
+        "text": "INV-2026-102",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "b315715eaf02b6cc",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "94b1055c19453225",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "eca4dffc71e154d4",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "7a83970146db83b1",
+        "text": "浙江省杭州市示例路102号2楼",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "a0d3da666b2561a9"
+  },
+  {
+    "id": "zh-28",
+    "language": "zh",
+    "category": 7,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "需要排查的报错原文",
+      "role": "AXTextArea",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "44d0a3b9bb9b4e4e",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "629e76b7e5b61db8",
+        "text": "浙江省杭州市示例路102号2楼",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "b8600554e0296986",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "cef9e1c47153298b",
+        "text": "INV-2026-102",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "1d03c794cb8e3c78",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "b48e16805db0be73",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "748c41e11a64e06e",
+        "text": "陈小雨",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "1e206fbd2a0e5ab6",
+        "text": "故障102：数据库连接超时",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": "1e206fbd2a0e5ab6"
+  },
+  {
+    "id": "zh-29",
+    "language": "zh",
+    "category": 8,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "信用卡有效期",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "95079944a748663b",
+        "text": "故障102：数据库连接超时",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "34cca1f7b06fc40d",
+        "text": "浙江省杭州市示例路102号2楼",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "6ac627f20cbfc68f",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "c1974b2aa3d56b00",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "4fd53bfbb63dbdc3",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "49c844fe859dee91",
+        "text": "INV-2026-102",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "995989f5db86566d",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "4ad8672d9b04cf3a",
+        "text": "陈小雨",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": null
+  },
+  {
+    "id": "zh-30",
+    "language": "zh",
+    "category": 9,
+    "context": {
+      "application": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "window_title": "合成验收表单",
+      "field_label": "手机号码",
+      "role": "AXTextField",
+      "selected_text": "",
+      "nearby_text": ""
+    },
+    "history": [
+      {
+        "id": "ab37f47976f0d657",
+        "text": "https://meet.example.com/project-102",
+        "copied_at": 1800000000
+      },
+      {
+        "id": "b1f96ddc87c55e97",
+        "text": "maya.chen102@example.com",
+        "copied_at": 1799999940
+      },
+      {
+        "id": "290d597f7d8d5885",
+        "text": "请查收附件中的草稿。\n感谢审阅。",
+        "copied_at": 1799999880
+      },
+      {
+        "id": "1d1a3cdb5f1adec6",
+        "text": "浙江省杭州市示例路102号2楼",
+        "copied_at": 1799999820
+      },
+      {
+        "id": "bb18c0ee42730939",
+        "text": "陈小雨",
+        "copied_at": 1799999760
+      },
+      {
+        "id": "ade79c489e77830c",
+        "text": "def total_102(items):\n    return sum(items)\n",
+        "copied_at": 1799999700
+      },
+      {
+        "id": "d24db98fe4a6facb",
+        "text": "故障102：数据库连接超时",
+        "copied_at": 1799999640
+      },
+      {
+        "id": "d0ddbd6dbeaefa46",
+        "text": "INV-2026-102",
+        "copied_at": 1799999580
+      }
+    ],
+    "expected_id": null
+  }
+]

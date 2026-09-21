@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Jev agent • Synthetic acceptance form</title>
+<style>
+body{font:16px -apple-system,sans-serif;background:#f4f5f3;color:#25332e;max-width:720px;margin:48px auto;padding:24px}
+h1{font-size:28px}label{display:block;margin-top:18px;font-weight:600}input,textarea{box-sizing:border-box;width:100%;padding:12px;margin-top:6px;font:inherit;border:1px solid #a2ada7;border-radius:6px;background:#fcfdfa}textarea{height:110px}small{color:#52645b}
+</style>
+<h1>Jev agent acceptance form</h1>
+<p>Local synthetic data only. This page never submits or sends information.</p>
+<label for="name">Full name / 姓名</label><input id="name" name="name" autocomplete="off" placeholder="Full name">
+<label for="email">Email address / 邮箱</label><input id="email" name="email" type="email" autocomplete="off" placeholder="Email address">
+<label for="address">Shipping address / 收货地址</label><textarea id="address" name="address" placeholder="Shipping address"></textarea>
+<label for="url">Meeting URL / 会议链接</label><input id="url" name="url" type="url" placeholder="Meeting URL">
+<label for="notes">Notes / 多行文本</label><textarea id="notes" name="notes" placeholder="Notes"></textarea>
+<label for="secure">Password / 密码 (must refuse context)</label><input id="secure" type="password" autocomplete="off">
+<p><small>No submit button. Test target switching by moving between fields.</small></p>
+</html>

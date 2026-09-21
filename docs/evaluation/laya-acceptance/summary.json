@@ -1,0 +1,55 @@
+{
+  "provider": "laya",
+  "platform": "macOS-15.7.7-arm64-arm-64bit",
+  "load_seconds": 1.2948133329628035,
+  "metrics": {
+    "total": 60,
+    "successful_responses": 60,
+    "top1": 0.16666666666666666,
+    "top3": 0.36666666666666664,
+    "recall": 0.8333333333333334,
+    "none_accuracy": 0.5833333333333334,
+    "recent_baseline": 0.1,
+    "retrieval_baseline": 0.31666666666666665,
+    "p50_ms": 14.442,
+    "p95_ms": 19.579,
+    "over_2s": 0,
+    "within_2s_top1": 0.16666666666666666,
+    "input_tokens": 12505
+  },
+  "languages": {
+    "en": {
+      "total": 30,
+      "successful_responses": 30,
+      "top1": 0.13333333333333333,
+      "top3": 0.36666666666666664,
+      "recall": 0.875,
+      "none_accuracy": 0.5,
+      "recent_baseline": 0.13333333333333333,
+      "retrieval_baseline": 0.36666666666666664,
+      "p50_ms": 14.442,
+      "p95_ms": 37.406,
+      "over_2s": 0,
+      "within_2s_top1": 0.13333333333333333,
+      "input_tokens": 6217
+    },
+    "zh": {
+      "total": 30,
+      "successful_responses": 30,
+      "top1": 0.2,
+      "top3": 0.36666666666666664,
+      "recall": 0.7916666666666666,
+      "none_accuracy": 0.6666666666666666,
+      "recent_baseline": 0.06666666666666667,
+      "retrieval_baseline": 0.26666666666666666,
+      "p50_ms": 14.423,
+      "p95_ms": 15.694,
+      "over_2s": 0,
+      "within_2s_top1": 0.2,
+      "input_tokens": 6288
+    }
+  },
+  "prompt_version": "clipboard-choice-v1",
+  "percentile_method": "nearest rank",
+  "recall_denominator": "answerable cases only"
+}

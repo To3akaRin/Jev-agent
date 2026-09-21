@@ -1,0 +1,16 @@
+.DS_Store
+.build/
+.swiftpm/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+models/
+dist/
+.runtime/
+artifacts/
+*.egg-info/
