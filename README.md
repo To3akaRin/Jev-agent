@@ -5,6 +5,8 @@
 <p align="center">
   A context-aware clipboard assistant for macOS.<br />
   Choose local Laya inference or the Jev API, review the suggestion, and paste the original text.
+
+  In the future, it will evolve into an agent that observes user actions and application context in real-time, predicts the next-step intent, and automatically executes the corresponding computer use operation upon pressing the Tab key.
 </p>
 
 <p align="center">
