@@ -13,6 +13,8 @@
 | Swift 原生会话状态机 | 独立 harness 9 场景通过，状态机已接入实际界面：单次请求、取消、配置失效、手动选择、粘贴单次执行 |
 | XCTest | 本机仅有 Command Line Tools，无 XCTest 模块；保留 XCTest 源码并由 GitHub macOS CI 验证，不能把本机 harness 称为 swift test 通过 |
 | 原生构建 | debug 与 release 构建通过；`.app` 使用 ad-hoc 签名并通过 codesign 验证，不是公证安装包 |
+| 干净源码构建 | 从提交 `84492bc45eb71338a5feaa2ac73438b74c243ad2` 的 git archive 建立全新目录和 `.venv`，Jev-only 初始化及全部本地检查通过；再安装双提供者依赖，固定快照离线冒烟选择正确。下载缓存复用，未宣称重新下载全部权重 |
+| GitHub 源码 | 公开仓库已创建；首次远程 main 与本地提交一致，ahead/behind 为 0/0；此状态不是正式 v0.1.0 发布 |
 | 原生界面 | 实际打开候选和设置面板；搜索 Alex 得到两项，方向键切换到 Alex Chen，原文预览与 Copy 状态正确 |
 | 手动复制回读 | 从 Jev agent 复制合成 Alex Chen，再通过 macOS 原生粘贴到 Chrome 本地表单，字段回读一致；这不是应用自动粘贴验收 |
 | 目标变化 | 观察到目标切换后提示 Target changed，Paste 禁用 |
@@ -66,7 +68,7 @@ v1 最近项基线 10.0%，仅检索基线 31.7%；v2 分别为 7.5% 和 22.5%�
 
 - Chrome、Safari、TextEdit 中分别完成 Laya/Jev 推荐 → 应用自动 Paste → 原文回读的完整矩阵。
 - 原生快捷键、权限撤销、休眠唤醒及真实目标中途变化的完整人工验收。
-- 从全新 checkout 初始化并验证两种提供者的桌面启动。
+- 干净源码初始化和构建已通过；两种提供者的完整桌面启动与目标应用矩阵仍待验证。
 - 桌面工作流端到端时延和长期空闲资源测量。
 - 正式 `v0.1.0` 发布。本地构建、源码公开和源码 CI 不替代上述验收。
 
@@ -77,3 +79,5 @@ v1 最近项基线 10.0%，仅检索基线 31.7%；v2 分别为 7.5% 和 22.5%�
 先按 README 初始化，再运行 `bash scripts/check.sh`。正式评测参考 README，并增加 `--cases evaluation/cases_v2.json` 运行第二轮；传同轮 Laya 输出的 `prepared.json` 给 Jev，输出目录必须为新的名称。
 
 没有 key 的 CI 只跑替身测试，不访问真实 Jev。重跑会消耗调用额度，必须沿用当前批次账本；报告需要保存具体版本及全部失败。
+
+首次源码 CI：[GitHub Actions 运行记录](https://github.com/To3akaRin/Jev-agent/actions/runs/35578566388)。最终状态以对应提交的实际运行记录为准。
