@@ -1,88 +1,49 @@
 <h1 align="center">Jev agent</h1>
 
-<h3 align="center">根据眼前的输入框，找到此刻该粘贴的内容。</h3>
+<h3 align="center">随手复制，按需粘贴。</h3>
 
 <p align="center">
   面向 macOS 的上下文智能剪贴板助手。<br />
-  选择本地 Laya 或 Jev API，查看推荐，再粘贴完整原文。
-
-  未来将要变成 实时观察用户操作和应用上下文，预测下一步意图，按下 tab 就自动执行对应的 computer use 操作的 agent 。
+  邮箱、链接、地址、代码，像平常一样复制。准备粘贴时，Jev agent 根据眼前的输入框，从历史记录中推荐适合的内容。
 </p>
 
+<p align="center">在 Mac 上运行 Laya，或连接 Jev API。查看推荐，再粘贴完整原文。</p>
+
 <p align="center">
-  <a href="#features"><strong>功能特性</strong></a> &nbsp;·&nbsp;
-  <a href="#how-it-works"><strong>工作方式</strong></a> &nbsp;·&nbsp;
+  <a href="#preview"><strong>产品预览</strong></a> &nbsp;·&nbsp;
   <a href="#getting-started"><strong>开始使用</strong></a> &nbsp;·&nbsp;
-  <a href="#validation"><strong>验证记录</strong></a> &nbsp;·&nbsp;
+  <a href="#use-cases"><strong>使用场景</strong></a> &nbsp;·&nbsp;
+  <a href="#how-it-works"><strong>工作方式</strong></a> &nbsp;·&nbsp;
   <a href="./README.md"><strong>English</strong></a>
 </p>
 
 <p align="center">
-  macOS · Apple Silicon · Laya 本地 / Jev 云端 · <a href="./LICENSE">MIT 许可证</a>
+  <a href="https://github.com/To3akaRin/Jev-agent/actions/workflows/ci.yml"><img src="https://github.com/To3akaRin/Jev-agent/actions/workflows/ci.yml/badge.svg" alt="构建与测试" /></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-22c55e" alt="MIT 许可证" /></a>
+  <img src="https://img.shields.io/badge/macOS-Apple%20Silicon-334155" alt="Apple Silicon macOS" />
 </p>
 
-> **当前状态：开发预览版。** 原生应用、历史管理、双模型适配、测试及源码构建脚本已经实现。本地检查和真实 Jev API 探测与完整模型、桌面验收分别记录。需要辅助功能权限的 Chrome、Safari、TextEdit 工作流仍需在目标 Mac 验证。具体实测结果及阻断项见[验证记录](./docs/VALIDATION.md)，不能将当前状态视为已完成生产发布。
+<a id="preview"></a>
 
-<a id="features"></a>
+## 让剪贴板理解当前场景
 
-![使用合成剪贴板历史的原生面板](./docs/assets/demo.png)
+<p align="center">
+  <img src="./docs/assets/jev-agent-preview.png" alt="Jev agent 界面概念图，左侧为剪贴板记录，右侧为完整原文预览" width="960" />
+  <br />
+  <sub>界面概念预览。</sub>
+</p>
 
-*仅演示界面布局，不代表模型推荐或自动粘贴验收。*
+你先后复制了会议链接、邮箱和收货地址，现在光标停在邮箱输入框。Jev agent 可以利用这个上下文，推荐适合该字段的历史记录，减少逐条查找的操作。
 
-## 功能特性
-
-- **结合输入框选择：** 根据应用、窗口标题、字段标签及可获取的选区附近文字选择已有记录。
-- **双模型：** Laya 通过 MLX 在 Apple Silicon 本地运行；Jev 调用 TypeSafe 官方 API。默认 Laya，显式切换，不在失败后静默改用云端。
-- **确认后粘贴：** `⌘⇧V` 打开面板，查看推荐后回车；普通 `⌘V` 保持系统行为。
-- **保留原文：** 链接、代码、空白和多行内容不改写。模型只选择记录，不提交表单。
-- **有限历史：** 最多 72 小时、20,000,000 字节，包含元数据及历史临时写入。重复内容合并，超大单条完整跳过。
-- **手动控制：** 搜索、复制、暂停记录、排除应用、单条删除及全部清空。模型失败时保留手选。
-
-<a id="how-it-works"></a>
-
-## 工作方式
-
-1. 在 Jev agent 运行期间复制文字。
-2. 聚焦支持的输入框，按 `⌘⇧V`。
-3. 应用先保存目标，再打开面板；召回最多 6 条候选，保留最近 2 条并补充相关记录。
-4. 当前提供者从候选或“无匹配”中选择，仅有界摘录进入模型请求。
-5. 查看完整原文并确认；应用重新检查目标后执行粘贴。
-
-方向键选择、回车确认、Esc 取消。无法读取或可靠恢复目标时，使用 Copy 手动粘贴。邮箱输入框遇到多个无关的近期剪贴板记录，是代表性测试场景，不是准确率保证。
-
-## 数据与权限
-
-| 数据 | 行为 |
-| --- | --- |
-| 历史 | 纯文本保存在 `~/Library/Application Support/Jev agent/history`，最多 72 小时／20 MB |
-| 上下文 | 应用、窗口及当前字段元数据；支持时按有界文本范围读取 |
-| Laya | 显式下载固定快照，之后推理仅加载本地文件 |
-| Jev | 仅在 Jev 模式请求推荐时，将当前上下文和候选摘录发送至 `https://api.typesafe.ai` |
-| API key | 桌面设置使用 macOS Keychain；CLI 测试使用 `TYPESAFE_API_KEY` |
-| 排除项 | 机密剪贴板标记、安全输入框及配置的应用 |
-| 权限 | 通过辅助功能读取支持的字段并自动粘贴 |
-
-首版不截图、不做 OCR、不云同步历史、不在复制时后台调用云端模型，不处理图片／文件，也不导入第三方历史。历史是本地明文，不是加密保险库。来源应用仅在剪贴板提供明确标记时记录，否则显示未知；采集时还会检查当前应用是否位于排除列表。
-
-原生界面目前使用英文。英文与简体中文项目文档同步维护。
+**最终由你决定：** 检查完整原文、换一条记录，或取消。推荐不会自动提交表单或发送消息。
 
 <a id="getting-started"></a>
 
-## 开始使用
+## 在你的 Mac 上开始使用
 
-### 环境要求
+需要 **Apple Silicon Mac**、Apple Command Line Tools 或 Xcode、Git，以及 [UV](https://docs.astral.sh/uv/getting-started/installation/)。Python 3.12 由 UV 管理。原生应用最低目标为 macOS 14，固定版本的 Laya 运行时已在 macOS 15.7.7 上测试。
 
-- Apple Silicon Mac。原生应用最低目标为 macOS 14；不代表所有 MLX 版本都支持该系统。实际机器和 Laya 兼容情况见[验证记录](./docs/VALIDATION.md)。
-- Apple Command Line Tools 或 Xcode、Git、[UV](https://docs.astral.sh/uv/getting-started/installation/)。
-- Python 3.12，由 UV 管理。首次安装依赖和下载模型需要网络，Jev 调用也需要网络。
-
-缺少 Apple 开发工具时执行：
-
-```bash
-xcode-select --install
-```
-
-按照官方说明安装 UV 后：
+缺少 Apple 开发工具时，先执行 `xcode-select --install`，然后运行：
 
 ```bash
 git clone https://github.com/To3akaRin/Jev-agent.git
@@ -91,120 +52,114 @@ bash scripts/bootstrap.sh laya
 open "dist/Jev agent.app"
 ```
 
-选择初始化模式：
+在**系统设置 → 隐私与安全性 → 辅助功能**中允许 Jev agent。复制一些文字，聚焦输入框，按下 **`⌘⇧V`**。
 
-| 命令 | 行为 |
+想使用 Jev？将初始化命令改为 `bash scripts/bootstrap.sh jev`，在应用 Settings 中选择 **Jev · Cloud** 并输入 key。使用 `both` 可以安装两种提供者。key 保存在 macOS Keychain。
+
+当前为采用 ad-hoc 签名的源码构建应用。请保留项目目录及 `.venv`，它不是已公证的独立安装包。[安装、更新与排障指南 →](./docs/GUIDE.zh-CN.md)
+
+<a id="features"></a>
+<a id="use-cases"></a>
+
+## 为下一个输入框找到合适内容
+
+| 你正在做什么 | Jev agent 可以利用的信息 |
 | --- | --- |
-| `bash scripts/bootstrap.sh laya` | 安装锁定依赖及 MLX、构建应用、下载固定快照并运行 Laya 合成冒烟检查 |
-| `bash scripts/bootstrap.sh jev` | 不安装 MLX 扩展并构建；不下载 Laya，不发送云端决策请求 |
-| `bash scripts/bootstrap.sh both` | 安装双模型依赖、构建应用、下载 Laya 并运行其冒烟检查 |
+| 填写联系人表单 | 姓名、邮箱、地址等字段标签 |
+| 分享会议链接 | 当前输入框和近期复制的网址 |
+| 编写或讨论代码 | 代码片段与光标附近可获取的文字 |
+| 组织较长的消息 | 确认前可以完整查看的多行原文 |
 
-先构建应用，再下载模型。下载或冒烟失败时，已构建应用仍可使用手动历史功能；冒烟通过不代表效果评测通过。
+这些是目标使用场景，不代表准确率保证。上下文不可用或推荐不合适时，仍可搜索历史并手动选择。
 
-初始化只准备依赖和构建，不授予辅助功能权限、不写入 Keychain、不证明模型效果，也不替你修改已保存的提供者。在菜单栏 Settings 中选择提供者。使用 Jev 时输入自己的 key；保留 `jev-1.13.0`，除非显式选择账号可访问的其他模型。在**系统设置 → 隐私与安全性 → 辅助功能**中允许 Jev agent。
+<a id="how-it-works"></a>
 
-应用采用 ad-hoc 签名，没有 Developer ID 签名和公证。运行配置记录当前 checkout 和 `.venv` 的绝对路径，两者需要保留；移动 checkout 后需重新构建。不能把这个 `.app` 当成独立安装包分发。
+## 复制 → 聚焦 → 查看 → 粘贴
 
-### 更新和重新构建
+1. **正常复制。** Jev agent 记录自身运行期间复制的纯文本。
+2. **聚焦字段。** 按 `⌘⇧V`，获取当前应用及支持的输入框上下文。
+3. **获得推荐。** 本地检索筛选最多 6 条候选，由所选模型选择一条或返回无匹配。
+4. **查看并确认。** 检查完整原文后回车，应用重新核对目标再执行粘贴。
 
-替换构建前先从菜单退出 Jev agent，在项目目录运行：
-
-```bash
-git pull --ff-only
-bash scripts/bootstrap.sh both
-open "dist/Jev agent.app"
-```
-
-只使用 Jev 时用 `jev` 替换 `both`。历史、应用偏好及 Keychain 凭据位于构建目录外。只重新构建而不安装依赖、下载模型：
-
-```bash
-bash scripts/build-app.sh
-```
-
-### 显式模型检查
-
-安装 Laya 可选依赖后：
-
-```bash
-uv run --no-sync python -m jev_agent.cli download
-uv run --no-sync python -m jev_agent.cli smoke --provider laya --timeout 10
-```
-
-Jev 测试在本地终端将占位符换成自己的凭据，禁止提交真实值。持久化账本将这组测试限制在 120 次决策内，不应通过重置账本绕过上限。
-
-```bash
-export TYPESAFE_API_KEY='YOUR_TYPESAFE_API_KEY'
-export TYPESAFE_DEFAULT_MODEL='jev-1.13.0'
-export JEV_AGENT_LIVE_BUDGET_FILE="$PWD/.runtime/jev-budget.json"
-export JEV_AGENT_LIVE_BUDGET_LIMIT=120
-uv run --no-sync python -m jev_agent.cli smoke --provider jev --models --timeout 10
-uv run --no-sync python -m jev_agent.cli smoke --provider jev --timeout 10
-```
-
-`--models` 查询账号可见模型。冒烟测试使用合成内容，未选中正确邮箱候选时返回失败。客户端已配置或 HTTP 200 不能单独证明推荐成功。
-
-### 配置
-
-[`.env.example`](./.env.example) 说明默认项；应用**不会自动读取 `.env`**。桌面选项在 Settings 配置，CLI 测试在终端导出变量；Finder 启动的应用不一定继承终端环境。
-
-| 环境变量 | 默认值／用途 |
+| 按键 | 操作 |
 | --- | --- |
-| `JEV_AGENT_PROVIDER` | `laya`，可选 `jev`；桌面已保存设置优先 |
-| `JEV_AGENT_LAYA_MODEL` | `aac6fef/laya-multilingual-mlx` |
-| `JEV_AGENT_LAYA_REVISION` | `ba40c87fcb357f1643d04d71323af9cdc3b9e591` |
-| `JEV_AGENT_DECISION_TIMEOUT_MS` | `2000`；桌面交互最多等待两秒 |
-| `TYPESAFE_API_KEY` | Jev CLI 凭据；桌面凭据保存在 Keychain |
-| `TYPESAFE_DEFAULT_MODEL` | `jev-1.13.0`；桌面已保存模型优先 |
-| `JEV_AGENT_LIVE_BUDGET_FILE` | 显式真实测试的持久化决策计数文件，可选 |
-| `JEV_AGENT_LIVE_BUDGET_LIMIT` | 真实测试最多调用次数，默认 `120`，不允许超过 `120` |
+| `⌘⇧V` | 打开面板，可在 Settings 中修改 |
+| `↑` / `↓` | 选择记录 |
+| `Return` | 确认当前记录 |
+| `Esc` | 取消 |
+| `⌘V` | 保持普通系统粘贴 |
+
+无法读取或恢复目标时，使用 **Copy** 手动粘贴。模型不会改写你选择的原文。
+
+## 决定模型在哪里运行
+
+| | Laya · Local | Jev · Cloud |
+| --- | --- | --- |
+| 运行方式 | Apple Silicon Mac 上的 MLX | TypeSafe 官方 API |
+| 配置 | 下载固定的多语言模型 | 配置 API key |
+| 网络 | 首次下载，之后可离线推理 | 推荐时需要网络 |
+| 模型输入 | 在本机处理 | 当前上下文和候选摘录发送至 TypeSafe |
+
+**默认使用 Laya。** 提供者由你显式切换，失败时不会自动把本地处理改成云端请求。只使用 Jev 时无需下载 Laya。
+
+## 历史够用，也有边界
+
+- **最多 3 天、20 MB。** 任一限制达到时清理最旧记录，模型及依赖单独存放。
+- **保留完整原文。** 链接、空白、代码和多行文本保持原样。
+- **随时管理。** 暂停记录、排除应用、删除单条或清空全部历史。
+- **围绕当前字段。** 通过辅助功能读取支持的应用和字段信息，不截图、不做 OCR。
+
+历史以明文保存在本机 `~/Library/Application Support/Jev agent/history`。明确标记为机密的剪贴板内容及安全输入框会被排除。Jev 仅在请求云端推荐时发送上下文和候选摘录，不上传全部历史。[数据、权限与配置说明 →](./docs/GUIDE.zh-CN.md)
 
 <a id="validation"></a>
 
-## 检查与评测
+## 开源开发，真实模型验证
+
+**当前为开发预览版。** 双模型、原生应用、测试及构建脚本已实现；Chrome、Safari、TextEdit 的完整自动粘贴验收仍在进行。
+
+最新一轮使用相同预处理输入的 40 条合成样例结果：
+
+| 提供者 | Top-1 选择正确率 | 模型请求耗时中位数 |
+| --- | ---: | ---: |
+| Laya | 40% | 12.6 ms |
+| Jev | 85% | 327.9 ms |
+
+错误请求计为失败。这组小规模合成结果不代表通用准确率，请求耗时也不包含桌面交互。Laya 推荐仍属实验性能力，请始终核对原文。[实测结果、原始响应与待验收事项 →](./docs/VALIDATION.md)
+
+## 下一步，探索 Tab 驱动的桌面助手
+
+从智能粘贴开始，逐步探索：在授权范围内理解用户操作和应用上下文，预测下一步意图，由用户按下 **Tab** 执行建议的 computer-use 操作。
+
+这是后续方向，尚未包含在当前剪贴板版本中。
+
+## 一起完善 Jev agent
+
+通过 [Issues](https://github.com/To3akaRin/Jev-agent/issues) 提交可复现的问题或改进建议。反馈上下文读取问题时，请附应用版本、字段类型、提供者和合成示例。
+
+项目使用 **Swift/AppKit** 接入 macOS，使用 **Python** 运行模型提供者，通过本地 JSON Lines 管道连接。原生运行，不需要 Docker 服务或监听端口。
 
 ```bash
 bash scripts/check.sh
+bash scripts/build-app.sh  # 重新构建前先退出 Jev agent。
 ```
 
-运行 Python lint、测试、Swift 核心检查、release 构建及本地文档链接检查。安装 Xcode 时核心检查运行 XCTest；只有 Command Line Tools 时改用独立 Swift 检查程序，并在输出中明确说明。两者都不代表 CI 已验证桌面授权、真实粘贴目标或付费模型。
+| 了解什么 | 文档入口 |
+| --- | --- |
+| 安装、更新、配置与排障 | [使用与开发指南](./docs/GUIDE.zh-CN.md) |
+| 环境变量默认值 | [`.env.example`](./.env.example) 与[配置说明](./docs/GUIDE.zh-CN.md#配置) |
+| 模块结构与扩展提供者 | [目录结构](./docs/GUIDE.zh-CN.md#目录结构)与[本地 API](./API.md) |
+| 参与贡献 | [贡献指南](./CONTRIBUTING.md)与[项目规格](./docs/SPEC.zh-CN.md) |
+| 查看进展 | [更新日志](./CHANGELOG.md)与[验证记录](./docs/VALIDATION.md) |
 
-`evaluation/cases.json` 包含固定的 60 条中英文合成样例。先安装 `both`、构建并按前文配置 Jev 测试环境，再以相同整理后的输入运行两种模型：
+### 几个常见问题
 
-```bash
-swift build -c release
-uv run --no-sync python scripts/evaluate.py --provider laya --output laya-repro
-uv run --no-sync python scripts/evaluate.py --provider jev --prepared artifacts/laya-repro/prepared.json --output jev-repro
-```
+- **没有推荐？** 等待模型就绪，查看状态，或选择 **Retry model**；仍可手动使用历史。
+- **不能粘贴？** 检查当前构建的辅助功能权限，不支持的字段保留仅复制方式。
+- **支持图片和文件吗？** 当前版本支持纯文本、链接、代码及多行内容。
+- **移动了项目目录？** 重新构建以更新运行时路径。[更多排障说明 →](./docs/GUIDE.zh-CN.md#常见问题与卸载)
 
-再次运行需使用新的输出名称。`artifacts/` 中保存完整合成输入／响应、共同请求和汇总，默认不进入 Git。评测包含 Top-1、Top-3、无匹配识别、候选召回、最近项和纯检索基线、耗时及超过产品两秒预算的比例。模型响应时间与从快捷键到粘贴完成的桌面耗时分别统计。实际证据与限制见[验证记录](./docs/VALIDATION.md)。
+## 许可证与致谢
 
-## 目录结构
+Jev agent 采用 [MIT 许可证](./LICENSE)，使用 [Laya](https://huggingface.co/convaiinnovations/laya)、[Laya-MLX](https://github.com/mizorewww/laya-mlx) 与 [TypeSafe Jev API](https://docs.typesafe.ai/)。第三方依赖和权重保留各自许可证，详见[第三方说明](./THIRD_PARTY_NOTICES.md)。
 
-```text
-Sources/JevAgent/       菜单栏、上下文、设置及模型进程桥接
-Sources/JevCore/        历史存储和确定性候选检索
-Sources/JevEval/        检索基线可执行程序
-src/jev_agent/         Python 提供者、有界输入、协议和 CLI
-Tests/                  Swift 与 Python 测试
-evaluation/             固定合成评测集
-scripts/                初始化、构建、检查和评测脚本
-docs/                   规格、集成契约和验证记录
-```
-
-Swift/AppKit 接入原生剪贴板与辅助功能；Python 隔离模型依赖；JSON Lines 通过本地管道通信，不开放服务端口。协议见 [API 文档](./API.md)。本项目采用原生桌面部署，不是 Docker 服务。
-
-## 常见问题与卸载
-
-- **没有推荐：** 等待模型就绪，查看状态，或在菜单选择 **Retry model**；不会静默切换提供者。
-- **字段不可读或粘贴失败：** 检查当前构建的辅助功能权限；不支持的字段保留 Copy。模型就绪不能代替系统授权。
-- **Laya 快照缺失：** 重新运行 `download`。系统上的 Metal／MLX 失败应记录到[验证记录](./docs/VALIDATION.md)，不能由构建成功推断兼容。
-- **Jev 鉴权、权限、限流或网络异常：** 核对 key、模型权限和网络，期间手选。交互请求不会自动重试。
-- **快捷键冲突：** 在 Settings 更换组合，普通 `⌘V` 不被接管。
-- **移动目录后找不到运行时：** 在新 checkout 运行 `bash scripts/build-app.sh`。
-- **卸载：** 退出应用；如需删除历史，先在 Settings 清空，再删除构建的 `.app` 和项目目录。否则历史保留在前述路径。API 凭据可在“钥匙串访问”删除服务 `ai.jev.agent`、账号 `typesafe` 对应项目。Hugging Face 模型缓存独立保留，确认其他应用不再使用后单独删除。
-
-## 贡献与许可证
-
-阅读[贡献指南](./CONTRIBUTING.md)、[规格](./docs/SPEC.zh-CN.md)、[更新日志](./CHANGELOG.md)及[第三方说明](./THIRD_PARTY_NOTICES.md)。行为、安装方式或完成状态变化时同步两版 README。不要提交私人历史、真实凭据、模型权重或本地运行日志。
-
-项目采用 [MIT 许可证](./LICENSE)，第三方依赖和模型保留各自条款。Jev agent 是独立项目，不是 TypeSafe AI、Convai Innovations 或 Laya-MLX 维护者的官方产品。
+这是独立项目，不是模型提供者的官方产品。
