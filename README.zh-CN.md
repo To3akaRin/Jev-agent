@@ -5,6 +5,8 @@
 <p align="center">
   面向 macOS 的上下文智能剪贴板助手。<br />
   选择本地 Laya 或 Jev API，查看推荐，再粘贴完整原文。
+
+  未来将要变成 实时观察用户操作和应用上下文，预测下一步意图，按下 tab 就自动执行对应的 computer use 操作的 agent 。
 </p>
 
 <p align="center">
